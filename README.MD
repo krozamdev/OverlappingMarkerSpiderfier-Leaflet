@@ -1,7 +1,7 @@
 📦🤗 npm-friendly fork of
 [jawj/OverlappingMarkerSpiderfier](https://github.com/jawj/OverlappingMarkerSpiderfier).
 
-Overlapping Marker Spiderfier for Leaflet
+Overlapping Marker Spiderfier for Leaflet support ES6 Module
 =========================================
 
 **Ever noticed how, in [Google Earth](http://earth.google.com), marker
@@ -18,9 +18,7 @@ spiral.
 
 The compiled code has no dependencies beyond Leaflet. And it's under 3K
 when compiled out of
-[CoffeeScript](http://jashkenas.github.com/coffee-script/), minified
-with Google's [Closure
-Compiler](http://code.google.com/closure/compiler/) and gzipped.
+[TypeScript](https://www.typescriptlang.org)
 
 It's a port of my [original library for the Google Maps
 API](https://github.com/jawj/OverlappingMarkerSpiderfier). (Since the
@@ -54,7 +52,7 @@ Download [the compiled, minified JS
 source](https://unpkg.com/overlapping-marker-spiderfier-leaflet@latest).
 
 Or download it from npm:
-`npm isntall -S @krozamdev/overlapping-marker-spiderfier` or
+`npm install -S @krozamdev/overlapping-marker-spiderfier` or
 `yarn add @krozamdev/overlapping-marker-spiderfier`
 
 How to use
