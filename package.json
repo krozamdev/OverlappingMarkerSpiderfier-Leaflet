@@ -1,0 +1,31 @@
+{
+  "name": "@krozamdev/overlapping-marker-spiderfier",
+  "version": "0.2.7",
+  "description": "Deals with overlapping markers in the Leaflet maps API, Google Earth-style",
+  "keywords": [
+    "overlapping marker",
+    "spiderfier",
+    "leaflet",
+    "leaflet plugin"
+  ],
+  "homepage": "https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krozamdev/OverlappingMarkerSpiderfier-Leaflet.git"
+  },
+  "bugs": "https://github.com/jawj/OverlappingMarkerSpiderfier-Leaflet/issues",
+  "main": "dist/OverlappingMarkerSpiderfier.js",
+  "types": "dist/OverlappingMarkerSpiderfier.d.ts",
+  "peerDependencies": {
+    "leaflet": "^1.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "@types/leaflet": "^1.7.6"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "George MacKerron <george@mackerron.com> (http://mackerron.com)",
+  "license": "MIT"
+}
